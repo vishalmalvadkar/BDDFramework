@@ -1,0 +1,289 @@
+2025-06-19 15:37:07 INFO  TestListener:31 - Test suite started: Firefox Test
+2025-06-19 15:37:07 INFO  TestListener:31 - Test suite started: Chrome Test
+2025-06-19 15:37:08 INFO  TestListener:16 - Test started: runScenario
+2025-06-19 15:37:08 INFO  TestListener:16 - Test started: runScenario
+2025-06-19 15:37:14 INFO  ElementAction:25 - Typing into element: [[ChromeDriver: chrome on windows (d3042146ace9cbab7e29097557f49077)] -> name: q] | Text: mobile
+2025-06-19 15:37:14 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 15:37:14 INFO  ElementAction:19 - Attempting to click on element: [[ChromeDriver: chrome on windows (d3042146ace9cbab7e29097557f49077)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 15:37:19 INFO  ElementAction:25 - Typing into element: [[FirefoxDriver: firefox on windows (0b300023-989a-46b0-9dbe-0749bceb24a2)] -> name: q] | Text: mobile
+2025-06-19 15:37:20 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 15:37:20 INFO  ElementAction:19 - Attempting to click on element: [[FirefoxDriver: firefox on windows (0b300023-989a-46b0-9dbe-0749bceb24a2)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 15:37:49 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 15:37:49 INFO  ElementAction:33 - Getting text from element: [[ChromeDriver: chrome on windows (d3042146ace9cbab7e29097557f49077)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 15:37:49 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 15:37:49 INFO  TestListener:21 - Test passed: runScenario
+2025-06-19 15:37:49 INFO  TestListener:36 - Test suite finished: Chrome Test
+2025-06-19 15:37:53 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 15:37:53 INFO  ElementAction:33 - Getting text from element: [[FirefoxDriver: firefox on windows (0b300023-989a-46b0-9dbe-0749bceb24a2)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 15:37:53 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 15:37:56 INFO  TestListener:21 - Test passed: runScenario
+2025-06-19 15:37:56 INFO  TestListener:36 - Test suite finished: Firefox Test
+2025-06-19 15:59:46 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 15:59:46 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 15:59:53 INFO  ElementAction:25 - Typing into element: [[ChromeDriver: chrome on windows (78c4ff1282d64bd86de4c8c10c29098c)] -> name: q] | Text: mobile
+2025-06-19 15:59:54 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 15:59:54 INFO  ElementAction:19 - Attempting to click on element: [[ChromeDriver: chrome on windows (78c4ff1282d64bd86de4c8c10c29098c)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 15:59:58 INFO  ElementAction:25 - Typing into element: [[FirefoxDriver: firefox on windows (df3777ac-a7f9-4a72-97e0-59cf090c9561)] -> name: q] | Text: mobile
+2025-06-19 15:59:58 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 15:59:58 INFO  ElementAction:19 - Attempting to click on element: [[FirefoxDriver: firefox on windows (df3777ac-a7f9-4a72-97e0-59cf090c9561)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:00:27 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:00:27 INFO  ElementAction:33 - Getting text from element: [[ChromeDriver: chrome on windows (78c4ff1282d64bd86de4c8c10c29098c)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:00:27 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:00:28 INFO  TestListener:37 - Test passed: runScenario
+2025-06-19 16:00:33 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:00:33 INFO  ElementAction:33 - Getting text from element: [[FirefoxDriver: firefox on windows (df3777ac-a7f9-4a72-97e0-59cf090c9561)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:00:33 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:00:34 INFO  TestListener:37 - Test passed: runScenario
+2025-06-19 16:06:20 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:06:20 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:06:28 INFO  ElementAction:25 - Typing into element: [[ChromeDriver: chrome on windows (f5ebfc16337693017e1c873dcda2c887)] -> name: q] | Text: mobile
+2025-06-19 16:06:28 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:06:28 INFO  ElementAction:19 - Attempting to click on element: [[ChromeDriver: chrome on windows (f5ebfc16337693017e1c873dcda2c887)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:06:32 INFO  ElementAction:25 - Typing into element: [[FirefoxDriver: firefox on windows (1ac02436-dbeb-442f-afd6-aed8c066d636)] -> name: q] | Text: mobile
+2025-06-19 16:06:33 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:06:33 INFO  ElementAction:19 - Attempting to click on element: [[FirefoxDriver: firefox on windows (1ac02436-dbeb-442f-afd6-aed8c066d636)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:07:02 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:07:02 INFO  ElementAction:33 - Getting text from element: [[ChromeDriver: chrome on windows (f5ebfc16337693017e1c873dcda2c887)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:07:02 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:07:02 INFO  TestListener:37 - Test passed: runScenario
+2025-06-19 16:07:07 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:07:07 INFO  ElementAction:33 - Getting text from element: [[FirefoxDriver: firefox on windows (1ac02436-dbeb-442f-afd6-aed8c066d636)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:07:07 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:07:09 INFO  TestListener:37 - Test passed: runScenario
+2025-06-19 16:16:27 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:16:27 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:16:33 INFO  ElementAction:25 - Typing into element: [[ChromeDriver: chrome on windows (49e25da14e7abf2c59d880cc9fae32b8)] -> name: q] | Text: mobile
+2025-06-19 16:16:34 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:16:34 INFO  ElementAction:19 - Attempting to click on element: [[ChromeDriver: chrome on windows (49e25da14e7abf2c59d880cc9fae32b8)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:16:37 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 1
+2025-06-19 16:16:37 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:16:37 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 2
+2025-06-19 16:16:37 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:16:37 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 3
+2025-06-19 16:16:37 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:16:37 ERROR TestListener:43 - Test failed: runScenario
+java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22) ~[classes/:?]
+	at hooks.Hooks.setUp(Hooks.java:17) ~[test-classes/:?]
+2025-06-19 16:16:37 ERROR TestListener:43 - Test failed: runScenario
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "org.DriverManager.DriverSetUp.getDriver()" is null
+	at org.Utilities.ScreenshotUtil.captureScreenshot(ScreenshotUtil.java:16) ~[classes/:?]
+	at org.Listeners.TestListener.onTestFailure(TestListener.java:46) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2025-06-19 16:16:38 INFO  ElementAction:25 - Typing into element: [[FirefoxDriver: firefox on windows (d6873859-517d-44ae-b1e8-5f43af3e8da6)] -> name: q] | Text: mobile
+2025-06-19 16:16:39 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:16:39 INFO  ElementAction:19 - Attempting to click on element: [[FirefoxDriver: firefox on windows (d6873859-517d-44ae-b1e8-5f43af3e8da6)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:17:15 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:17:15 INFO  ElementAction:33 - Getting text from element: [[FirefoxDriver: firefox on windows (d6873859-517d-44ae-b1e8-5f43af3e8da6)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:17:15 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:17:16 INFO  TestListener:37 - Test passed: runScenario
+2025-06-19 16:17:49 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:17:49 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:17:56 INFO  ElementAction:25 - Typing into element: [[ChromeDriver: chrome on windows (a19bd6400cb77944d0d52bc40ed91b45)] -> name: q] | Text: mobile
+2025-06-19 16:17:56 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:17:56 INFO  ElementAction:19 - Attempting to click on element: [[ChromeDriver: chrome on windows (a19bd6400cb77944d0d52bc40ed91b45)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:18:00 INFO  ElementAction:25 - Typing into element: [[FirefoxDriver: firefox on windows (a4793c86-c901-4749-b469-4fb675a1ab0f)] -> name: q] | Text: mobile
+2025-06-19 16:18:01 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:18:01 INFO  ElementAction:19 - Attempting to click on element: [[FirefoxDriver: firefox on windows (a4793c86-c901-4749-b469-4fb675a1ab0f)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:18:30 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:18:30 INFO  ElementAction:33 - Getting text from element: [[ChromeDriver: chrome on windows (a19bd6400cb77944d0d52bc40ed91b45)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:18:30 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:18:30 INFO  TestListener:37 - Test passed: runScenario
+2025-06-19 16:18:35 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:18:35 INFO  ElementAction:33 - Getting text from element: [[FirefoxDriver: firefox on windows (a4793c86-c901-4749-b469-4fb675a1ab0f)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:18:35 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:18:36 INFO  TestListener:37 - Test passed: runScenario
+2025-06-19 16:26:08 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:26:08 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:26:16 INFO  ElementAction:25 - Typing into element: [[ChromeDriver: chrome on windows (040d2ef1f006a35939a1e0c1bf09d42e)] -> name: q] | Text: mobile
+2025-06-19 16:26:16 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:26:16 INFO  ElementAction:19 - Attempting to click on element: [[ChromeDriver: chrome on windows (040d2ef1f006a35939a1e0c1bf09d42e)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:26:18 INFO  ElementAction:25 - Typing into element: [[FirefoxDriver: firefox on windows (8fb8787b-7d54-457c-9a27-cb3a85f5a264)] -> name: q] | Text: mobile
+2025-06-19 16:26:19 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:26:19 INFO  ElementAction:19 - Attempting to click on element: [[FirefoxDriver: firefox on windows (8fb8787b-7d54-457c-9a27-cb3a85f5a264)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:26:51 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:26:51 INFO  ElementAction:33 - Getting text from element: [[ChromeDriver: chrome on windows (040d2ef1f006a35939a1e0c1bf09d42e)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:26:52 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:26:52 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 1
+2025-06-19 16:26:52 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:26:52 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 2
+2025-06-19 16:26:52 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:26:52 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 3
+2025-06-19 16:26:52 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:26:52 ERROR TestListener:43 - Test failed: runScenario
+java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22) ~[classes/:?]
+	at hooks.Hooks.setUp(Hooks.java:17) ~[test-classes/:?]
+2025-06-19 16:26:52 ERROR TestListener:43 - Test failed: runScenario
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "org.DriverManager.DriverSetUp.getDriver()" is null
+	at org.Utilities.ScreenshotUtil.captureScreenshot(ScreenshotUtil.java:16) ~[classes/:?]
+	at org.Listeners.TestListener.onTestFailure(TestListener.java:46) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2025-06-19 16:26:55 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:26:55 INFO  ElementAction:33 - Getting text from element: [[FirefoxDriver: firefox on windows (8fb8787b-7d54-457c-9a27-cb3a85f5a264)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:26:55 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:26:56 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 1
+2025-06-19 16:26:56 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:26:56 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 2
+2025-06-19 16:26:56 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:26:56 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 3
+2025-06-19 16:26:56 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:26:56 ERROR TestListener:43 - Test failed: runScenario
+java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22) ~[classes/:?]
+	at hooks.Hooks.setUp(Hooks.java:17) ~[test-classes/:?]
+2025-06-19 16:26:56 ERROR TestListener:43 - Test failed: runScenario
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "org.DriverManager.DriverSetUp.getDriver()" is null
+	at org.Utilities.ScreenshotUtil.captureScreenshot(ScreenshotUtil.java:16) ~[classes/:?]
+	at org.Listeners.TestListener.onTestFailure(TestListener.java:46) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2025-06-19 16:37:06 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:37:06 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:37:14 INFO  ElementAction:25 - Typing into element: [[ChromeDriver: chrome on windows (a6e3befcbebc53cf40ae9c30393d2be8)] -> name: q] | Text: mobile
+2025-06-19 16:37:14 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:37:14 INFO  ElementAction:19 - Attempting to click on element: [[ChromeDriver: chrome on windows (a6e3befcbebc53cf40ae9c30393d2be8)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:37:19 INFO  ElementAction:25 - Typing into element: [[FirefoxDriver: firefox on windows (c0c530a0-3a62-4473-be18-57cc9b1fb734)] -> name: q] | Text: mobile
+2025-06-19 16:37:19 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:37:19 INFO  ElementAction:19 - Attempting to click on element: [[FirefoxDriver: firefox on windows (c0c530a0-3a62-4473-be18-57cc9b1fb734)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:37:48 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:37:48 INFO  ElementAction:33 - Getting text from element: [[ChromeDriver: chrome on windows (a6e3befcbebc53cf40ae9c30393d2be8)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:37:48 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:37:49 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 1
+2025-06-19 16:37:49 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:37:49 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 2
+2025-06-19 16:37:49 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:37:49 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 3
+2025-06-19 16:37:49 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:37:49 ERROR TestListener:43 - Test failed: runScenario
+java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22) ~[classes/:?]
+	at hooks.Hooks.setUp(Hooks.java:18) ~[test-classes/:?]
+2025-06-19 16:37:49 ERROR TestListener:43 - Test failed: runScenario
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "org.DriverManager.DriverSetUp.getDriver()" is null
+	at org.Utilities.ScreenshotUtil.captureScreenshot(ScreenshotUtil.java:16) ~[classes/:?]
+	at org.Listeners.TestListener.onTestFailure(TestListener.java:46) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2025-06-19 16:37:53 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:37:54 INFO  ElementAction:33 - Getting text from element: [[FirefoxDriver: firefox on windows (c0c530a0-3a62-4473-be18-57cc9b1fb734)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:37:54 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:37:55 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 1
+2025-06-19 16:37:55 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:37:55 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 2
+2025-06-19 16:37:55 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:37:55 WARN  RetryMech:16 - Retrying test: runScenario | Attempt: 3
+2025-06-19 16:37:55 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:37:55 ERROR TestListener:43 - Test failed: runScenario
+java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22) ~[classes/:?]
+	at hooks.Hooks.setUp(Hooks.java:18) ~[test-classes/:?]
+2025-06-19 16:37:55 ERROR TestListener:43 - Test failed: runScenario
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "org.DriverManager.DriverSetUp.getDriver()" is null
+	at org.Utilities.ScreenshotUtil.captureScreenshot(ScreenshotUtil.java:16) ~[classes/:?]
+	at org.Listeners.TestListener.onTestFailure(TestListener.java:46) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2025-06-19 16:39:47 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:39:47 INFO  TestListener:30 - Test started: runScenario
+2025-06-19 16:39:55 INFO  ElementAction:25 - Typing into element: [[ChromeDriver: chrome on windows (5eb2b6846c3fb20ee69ba32f583b3164)] -> name: q] | Text: mobile
+2025-06-19 16:39:55 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:39:55 INFO  ElementAction:19 - Attempting to click on element: [[ChromeDriver: chrome on windows (5eb2b6846c3fb20ee69ba32f583b3164)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:40:01 INFO  ElementAction:25 - Typing into element: [[FirefoxDriver: firefox on windows (c3375227-f4df-42a5-a3ec-f4dd124c8904)] -> name: q] | Text: mobile
+2025-06-19 16:40:02 INFO  ElementAction:29 - Text entered successfully
+2025-06-19 16:40:02 INFO  ElementAction:19 - Attempting to click on element: [[FirefoxDriver: firefox on windows (c3375227-f4df-42a5-a3ec-f4dd124c8904)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+2025-06-19 16:40:31 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:40:32 INFO  ElementAction:33 - Getting text from element: [[ChromeDriver: chrome on windows (5eb2b6846c3fb20ee69ba32f583b3164)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:40:32 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:40:32 INFO  TestListener:37 - Test passed: runScenario
+2025-06-19 16:40:36 INFO  ElementAction:21 - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+2025-06-19 16:40:37 INFO  ElementAction:33 - Getting text from element: [[FirefoxDriver: firefox on windows (c3375227-f4df-42a5-a3ec-f4dd124c8904)] -> xpath: //span[text() = 'mobile']]
+2025-06-19 16:40:37 INFO  ElementAction:35 - Text retrieved: mobile
+2025-06-19 16:40:38 INFO  TestListener:37 - Test passed: runScenario

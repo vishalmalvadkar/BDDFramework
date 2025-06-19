@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="51.622" tests="6" errors="0" skipped="6" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\JD\CuBDD\target\test-classes;E:\JD\CuBDD\target\classes;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-testng\7.11.0\cucumber-testng-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Vishal Malvadkar\AppData\Local\Temp\surefire9427248198116545222\surefirebooter-20250619162605223_3.jar C:\Users\Vishal Malvadkar\AppData\Local\Temp\surefire9427248198116545222 2025-06-19T16-26-04_675-jvmRun1 surefire-20250619162605223_1tmp surefire_0-20250619162605223_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\JD\CuBDD\target\test-classes;E:\JD\CuBDD\target\classes;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\cucumber\cucumber-testng\7.11.0\cucumber-testng-7.11.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Vishal Malvadkar\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Vishal Malvadkar\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Vishal Malvadkar\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Vishal Malvadkar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\JD\CuBDD"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Vishal Malvadkar\AppData\Local\Temp\surefire9427248198116545222\surefirebooter-20250619162605223_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="user.name" value="Vishal Malvadkar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Vishal Malvadkar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VISHAL~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="E:\JD\CuBDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Java\jre1.8.0_301\bin;E:\Selenium Files\allure-2.13.9\bin;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\nodejs\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Users\Vishal Malvadkar\AppData\Local\Microsoft\WindowsApps;E:\Selenium Files\apache-maven-3.8.4\bin;E:\Selenium Files\allure-2.13.9\bin;C:\Users\Vishal Malvadkar\.dotnet\tools;E:\IntelliJ_IDE\IntelliJ IDEA Community Edition 2022.2.1\bin;;C:\Users\Vishal Malvadkar\AppData\Roaming\npm;F:\DigiWebProject\ToolsRootPath\Microsoft VS Code\bin;C:\Users\Vishal Malvadkar\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.4.1+1-LTS-2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Validate the search box of app&quot;, &quot;Verify the search functionality&quot;](1)" classname="stepRunner.RunnerC" time="0">
+    <skipped message="expected [mobi] but found [mobile]"/>
+    <system-out><![CDATA[16:26:08 [TestNG-tests-1] INFO  org.Listeners.TestListener - Test started: runScenario
+16:26:08 [TestNG-tests-2] INFO  org.Listeners.TestListener - Test started: runScenario
+
+Scenario: Validate the search box of app # src/test/resources/features/searchProduct.feature:3
+
+Scenario: Validate the search box of app # src/test/resources/features/searchProduct.feature:3
+  Given User is on homepage              # stepDefinitions.SearchStepDef.user_is_on_homepage()
+16:26:16 [TestNG-tests-1] INFO  org.Utilities.ElementAction - Typing into element: [[ChromeDriver: chrome on windows (040d2ef1f006a35939a1e0c1bf09d42e)] -> name: q] | Text: mobile
+16:26:16 [TestNG-tests-1] INFO  org.Utilities.ElementAction - Text entered successfully
+16:26:16 [TestNG-tests-1] INFO  org.Utilities.ElementAction - Attempting to click on element: [[ChromeDriver: chrome on windows (040d2ef1f006a35939a1e0c1bf09d42e)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+  Given User is on homepage              # stepDefinitions.SearchStepDef.user_is_on_homepage()
+16:26:18 [TestNG-tests-2] INFO  org.Utilities.ElementAction - Typing into element: [[FirefoxDriver: firefox on windows (8fb8787b-7d54-457c-9a27-cb3a85f5a264)] -> name: q] | Text: mobile
+16:26:19 [TestNG-tests-2] INFO  org.Utilities.ElementAction - Text entered successfully
+16:26:19 [TestNG-tests-2] INFO  org.Utilities.ElementAction - Attempting to click on element: [[FirefoxDriver: firefox on windows (8fb8787b-7d54-457c-9a27-cb3a85f5a264)] -> xpath: //input[@name = 'q']/parent::div/preceding-sibling::button]
+16:26:51 [TestNG-tests-1] INFO  org.Utilities.ElementAction - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+  When User enter "mobile" in searchbox  # stepDefinitions.SearchStepDef.user_enter_in_searchbox(java.lang.String)
+16:26:51 [TestNG-tests-1] INFO  org.Utilities.ElementAction - Getting text from element: [[ChromeDriver: chrome on windows (040d2ef1f006a35939a1e0c1bf09d42e)] -> xpath: //span[text() = 'mobile']]
+16:26:52 [TestNG-tests-1] INFO  org.Utilities.ElementAction - Text retrieved: mobile
+  Then User should get all result        # stepDefinitions.SearchStepDef.user_should_get_all_result()
+      java.lang.AssertionError: expected [mobi] but found [mobile]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.SearchStepDef.user_should_get_all_result(SearchStepDef.java:32)
+	at âœ½.User should get all result(file:///E:/JD/CuBDD/src/test/resources/features/searchProduct.feature:6)
+
+16:26:52 [TestNG-tests-1] WARN  org.Listeners.RetryMech - Retrying test: runScenario | Attempt: 1
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the search box of app&quot;, &quot;Verify the search functionality&quot;](1)" classname="stepRunner.RunnerC" time="0">
+    <skipped message="expected [mobi] but found [mobile]"/>
+    <system-out><![CDATA[16:26:52 [TestNG-tests-1] INFO  org.Listeners.TestListener - Test started: runScenario
+
+Scenario: Validate the search box of app # src/test/resources/features/searchProduct.feature:3
+      java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22)
+	at hooks.Hooks.setUp(Hooks.java:17)
+
+  Given User is on homepage              # stepDefinitions.SearchStepDef.user_is_on_homepage()
+  When User enter "mobile" in searchbox  # stepDefinitions.SearchStepDef.user_enter_in_searchbox(java.lang.String)
+  Then User should get all result        # stepDefinitions.SearchStepDef.user_should_get_all_result()
+16:26:52 [TestNG-tests-1] ERROR org.Listeners.TestListener - Test failed: runScenario
+java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22) ~[classes/:?]
+	at hooks.Hooks.setUp(Hooks.java:17) ~[test-classes/:?]
+16:26:52 [TestNG-tests-1] ERROR org.Listeners.TestListener - Test failed: runScenario
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "org.DriverManager.DriverSetUp.getDriver()" is null
+	at org.Utilities.ScreenshotUtil.captureScreenshot(ScreenshotUtil.java:16) ~[classes/:?]
+	at org.Listeners.TestListener.onTestFailure(TestListener.java:46) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:777) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+16:26:55 [TestNG-tests-2] INFO  org.Utilities.ElementAction - Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //input[@name = 'q']/parent::div/preceding-sibling::button'
+  When User enter "mobile" in searchbox  # stepDefinitions.SearchStepDef.user_enter_in_searchbox(java.lang.String)
+16:26:55 [TestNG-tests-2] INFO  org.Utilities.ElementAction - Getting text from element: [[FirefoxDriver: firefox on windows (8fb8787b-7d54-457c-9a27-cb3a85f5a264)] -> xpath: //span[text() = 'mobile']]
+16:26:55 [TestNG-tests-2] INFO  org.Utilities.ElementAction - Text retrieved: mobile
+  Then User should get all result        # stepDefinitions.SearchStepDef.user_should_get_all_result()
+      java.lang.AssertionError: expected [mobi] but found [mobile]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.SearchStepDef.user_should_get_all_result(SearchStepDef.java:32)
+	at âœ½.User should get all result(file:///E:/JD/CuBDD/src/test/resources/features/searchProduct.feature:6)
+
+16:26:56 [TestNG-tests-2] WARN  org.Listeners.RetryMech - Retrying test: runScenario | Attempt: 1
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the search box of app&quot;, &quot;Verify the search functionality&quot;](2)" classname="stepRunner.RunnerC" time="0">
+    <skipped message="Browser not set. Use setBrowser() before initDriver()."/>
+    <system-out><![CDATA[16:26:52 [TestNG-tests-1] INFO  org.Listeners.TestListener - Test started: runScenario
+
+Scenario: Validate the search box of app # src/test/resources/features/searchProduct.feature:3
+      java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22)
+	at hooks.Hooks.setUp(Hooks.java:17)
+
+  Given User is on homepage              # stepDefinitions.SearchStepDef.user_is_on_homepage()
+  When User enter "mobile" in searchbox  # stepDefinitions.SearchStepDef.user_enter_in_searchbox(java.lang.String)
+  Then User should get all result        # stepDefinitions.SearchStepDef.user_should_get_all_result()
+16:26:52 [TestNG-tests-1] WARN  org.Listeners.RetryMech - Retrying test: runScenario | Attempt: 2
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the search box of app&quot;, &quot;Verify the search functionality&quot;](2)" classname="stepRunner.RunnerC" time="0">
+    <skipped message="Browser not set. Use setBrowser() before initDriver()."/>
+    <system-out><![CDATA[16:26:56 [TestNG-tests-2] INFO  org.Listeners.TestListener - Test started: runScenario
+
+Scenario: Validate the search box of app # src/test/resources/features/searchProduct.feature:3
+      java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22)
+	at hooks.Hooks.setUp(Hooks.java:17)
+
+  Given User is on homepage              # stepDefinitions.SearchStepDef.user_is_on_homepage()
+  When User enter "mobile" in searchbox  # stepDefinitions.SearchStepDef.user_enter_in_searchbox(java.lang.String)
+  Then User should get all result        # stepDefinitions.SearchStepDef.user_should_get_all_result()
+16:26:56 [TestNG-tests-2] WARN  org.Listeners.RetryMech - Retrying test: runScenario | Attempt: 2
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the search box of app&quot;, &quot;Verify the search functionality&quot;](3)" classname="stepRunner.RunnerC" time="0">
+    <skipped message="Browser not set. Use setBrowser() before initDriver()."/>
+    <system-out><![CDATA[16:26:52 [TestNG-tests-1] INFO  org.Listeners.TestListener - Test started: runScenario
+
+Scenario: Validate the search box of app # src/test/resources/features/searchProduct.feature:3
+      java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22)
+	at hooks.Hooks.setUp(Hooks.java:17)
+
+  Given User is on homepage              # stepDefinitions.SearchStepDef.user_is_on_homepage()
+  When User enter "mobile" in searchbox  # stepDefinitions.SearchStepDef.user_enter_in_searchbox(java.lang.String)
+  Then User should get all result        # stepDefinitions.SearchStepDef.user_should_get_all_result()
+16:26:52 [TestNG-tests-1] WARN  org.Listeners.RetryMech - Retrying test: runScenario | Attempt: 3
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the search box of app&quot;, &quot;Verify the search functionality&quot;](3)" classname="stepRunner.RunnerC" time="0">
+    <skipped message="Browser not set. Use setBrowser() before initDriver()."/>
+    <system-out><![CDATA[16:26:56 [TestNG-tests-2] INFO  org.Listeners.TestListener - Test started: runScenario
+
+Scenario: Validate the search box of app # src/test/resources/features/searchProduct.feature:3
+      java.lang.RuntimeException: Browser not set. Use setBrowser() before initDriver().
+	at org.DriverManager.DriverSetUp.initDriver(DriverSetUp.java:22)
+	at hooks.Hooks.setUp(Hooks.java:17)
+
+  Given User is on homepage              # stepDefinitions.SearchStepDef.user_is_on_homepage()
+  When User enter "mobile" in searchbox  # stepDefinitions.SearchStepDef.user_enter_in_searchbox(java.lang.String)
+  Then User should get all result        # stepDefinitions.SearchStepDef.user_should_get_all_result()
+16:26:56 [TestNG-tests-2] WARN  org.Listeners.RetryMech - Retrying test: runScenario | Attempt: 3
+]]></system-out>
+  </testcase>
+</testsuite>
